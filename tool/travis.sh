@@ -51,3 +51,6 @@ travis_fold start web_angular.test
   (set -x; pub run angular_test)
 travis_fold end web_angular.test
 popd
+
+set -x
+dartfmt -n templates
